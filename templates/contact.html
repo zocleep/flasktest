@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block add_link %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/contact_style.css') }}">
+{% endblock add_link %}
+
+{% block title %}
+Home
+{% endblock title %}
+
+{% block body %}
+
+<div class="contact">
+    Contact Us:
+    <ul>
+        <li>Phone: +795643326274</li>
+        <li>E-mail: fitnessclubexample.ru</li>
+        <li>Address: Moscow, Pushkin stree, 78D</li>
+    </ul>
+</div>
+
+<script src="{{ url_for('static', filename='') }}"></script>
+
+{% endblock body %}

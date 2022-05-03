@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block add_link %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/about_style.css') }}">
+{% endblock add_link %}
+
+{% block title %}
+Home
+{% endblock title %}
+
+{% block body %}
+
+<div class="about">
+    <p>Here is some historicaly text about fitness club, <br>lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil illo quod impedit rerum aliquid. <br>Eveniet, deserunt! Laudantium eius, veritatis ipsum debitis, molestiae autem aspernatur temporibus expedita harum <br>atque, quaerat molestias?</p>
+</div>
+
+<script src="{{ url_for('static', filename='') }}"></script>
+
+{% endblock body %}

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block add_link %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/location_style.css') }}">
+{% endblock add_link %}
+
+{% block title %}
+Home
+{% endblock title %}
+
+{% block body %}
+
+<div class="location">
+    <p>Our location:</p>
+    <img src="http://i.share.pho.to/4acc1bc2_o.jpeg" usemap="#image-map" id="mapp">   
+</div>
+
+<script src="{{ url_for('static', filename='') }}"></script>
+
+{% endblock body %}

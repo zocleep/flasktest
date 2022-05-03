@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block add_link %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/services_style.css') }}">
+{% endblock add_link %}
+
+{% block title %}
+Home
+{% endblock title %}
+
+{% block body %}
+
+<div class="services">
+    <ul>
+        <li>fit yourself by the help of our gadgets</li>
+        <li>we have outstanding range of finess</li>
+        <li>fit yourself by the help of our gadgets</li>
+        <li>we have outstanding range of finess</li>
+        <li>fit yourself by the help of our gadgets</li>
+        <li>we have outstanding range of finess</li>
+    </ul>
+</div>
+
+<script src="{{ url_for('static', filename='') }}"></script>
+
+{% endblock body %}

@@ -7,31 +7,36 @@ html, body {
 }
 
 body {
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+
     width: auto;
     min-height: 100%;
-    background-image: url("https://media.istockphoto.com/photos/dotted-grid-paper-background-texture-seamless-repeat-pattern-picture-id1320330053?b=1&k=20&m=1320330053&s=170667a&w=0&h=XisfN35UnuxAVP_sjq3ujbFDyWPurSfSTYd-Ll09Ncc=");
+    background-image: url("http://i.share.pho.to/a55882c8_o.jpeg");
 }
 
 .navig {
     width: 100%;
     height: 60px;
-    background-color: #90F383;
+    background-color: #496da3;
     position: fixed;
     z-index: 2;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.418);
 }
 
 .nava {
     display: inline;
     position: relative;
     text-decoration: none;
-    color: palevioletred;
-    padding: 4px;
+    color: rgb(125, 211, 140);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 4%;
     top: 20px;
     left: 3px;
     text-transform: uppercase;
-    border: 2px solid papayawhip;
+    border: 2px solid rgba(255, 239, 213, 0.342);
     border-radius: 20px;
     font-weight: 900;
     font-size: 15px;
@@ -39,7 +44,7 @@ body {
     -webkit-box-shadow: 64px 37px 100px -18px rgba(55, 195, 11, 0.2);
     -moz-box-shadow: 64px 37px 100px -18px rgba(55, 195, 11, 0.2);
     box-shadow: 64px 37px 100px -18px rgba(55, 195, 11, 0.2);
-    background-color: #7FCD8B;
+    background-color: rgb(74, 101, 221);
 }
 
 
