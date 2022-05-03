@@ -8,8 +8,10 @@ bs4 = "*"
 flask = "*"
 requests = "*"
 faker = "*"
+gunicorn = "*"
 
 [dev-packages]
 
 [requires]
 python_version = "3.8"
+
