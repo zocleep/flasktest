@@ -1,0 +1,36 @@
+.main {
+    top: 100px;
+    left: 30px;
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    background-color: #CD4C5B;
+    padding: 15px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 7px 9px 15px 5px rgba(0,0,0,0.75); 
+    box-shadow: 7px 9px 15px 5px rgba(0,0,0,0.75);
+}
+
+form {
+    width: 450px;
+    height: 100px;
+    font-size: 30px;
+}
+
+#url {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#s {
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    font-weight: 700;
+}

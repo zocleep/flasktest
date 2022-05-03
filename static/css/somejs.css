@@ -1,0 +1,26 @@
+.field {
+	width: 200px;
+	height: 200px;
+	padding-left: 20px;
+}
+
+.kekblock {
+	top: 100px;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	display: inline-block;
+	background-color: brown;
+	border-radius: 20px;
+	border: 3px solid black;
+}
+
+button {
+	color: white;
+	background-color: #000;
+	left: 16px;
+	position: relative;
+	display: inline-block;
+	top: 40px;
+	border-radius: 20px;
+}

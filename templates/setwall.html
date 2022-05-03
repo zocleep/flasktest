@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+    
+{% block add_link %}
+<script src="{{ url_for('static', filename='js/setwall.js') }}"></script>
+{% endblock add_link %}
+    
+{% block title %}
+{{ title }}
+{% endblock title %}
+
+{% block body %}
+<div class="main">
+    <form action="#" name="setwall">
+        <input type="text" name="wallurl" placeholder="URL to wallpaper" id="url">
+    </form>
+    <button id="s" onclick="change_wall()" type="button">Set wallpaper</button><br>
+    <button id="s" onclick="delete_wall()" type="button">Delete wallpaper</button>
+    
+</div>
+{% endblock body %}
+
+    

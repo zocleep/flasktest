@@ -1,0 +1,12 @@
+.bye {
+    position: relative;
+    top: 100px;
+    font-size: 45px;
+    left: 40px;
+    font-style: normal;
+    font-family: monospace;
+}
+
+body {
+    height: 2000px;
+}

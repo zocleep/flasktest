@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+    
+{% block add_link %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/somejs.css') }}">
+{% endblock add_link %}
+    
+{% block title %}
+{{ title }}
+{% endblock title %}
+
+{% block body %}
+<div class="field">
+
+
+    <div class="kekblock">
+        <button id="buttonmayhem">Mayhem</button>
+    </div>
+
+
+</div>
+<script src="{{ url_for('static', filename='js/somejs.js') }}"></script>
+{% endblock body %}
+
+    

@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block add_link %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/randomnames_style.css') }}">
+{% endblock add_link %}
+
+{% block title %}
+Random names's table
+{% endblock title %}
+
+{% block body %}
+
+    <div class="mainblock">
+    <table class="tablenames">
+    <tbody>
+    {% for i in range(rows) %}
+    <tr>
+    {% for i in range(3) %}
+    <td>{{ random_list|random }}</td>
+    {% endfor %}
+    </tr>
+    {% endfor %}
+    </tbody>
+    </table>
+    </div>
+
+<script src="{{ url_for('static', filename='js/randomnames.js') }}"></script>
+
+{% endblock body %}

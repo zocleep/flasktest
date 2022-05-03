@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block add_link %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/index_style.css') }}">
+{% endblock add_link %}
+
+{% block title %}
+Start page
+{% endblock title %}
+
+{% block body %}
+
+<div class="hello">
+    <p>It is start page</p>
+</div>
+
+{% endblock body %}

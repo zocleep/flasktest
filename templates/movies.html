@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+    
+{% block add_link %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/serial_style.css') }}">
+{% endblock add_link %}
+    
+{% block title %}
+Top serials
+{% endblock title %}
+
+{% block body %}
+<div class="serial_block">
+<p>Best Movies:</p>
+<ol>
+{% for movie, rating in top_movies|zip(ratings_list) %}
+    <li> {{ movie }} <span style="color:red">{{ rating }}</span> </li>
+{% endfor %}
+</ol>
+{% endblock body %}
+
+    

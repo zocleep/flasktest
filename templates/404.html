@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block add_link %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/404_style.css') }}">
+{% endblock add_link %}
+
+{% block title %}
+Sorry, page is not found...
+{% endblock title %}
+
+{% block body %}
+
+<div class="bye">
+    <p style="color: red; font-size: 36px">Page is not found</p>
+</div>
+
+{% endblock body %}

@@ -1,0 +1,110 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+
+.moving_block {
+    display: inline-block;
+    position: relative;
+    top: 200px;
+    left: 50px;
+    width: 100px;
+    height: 100px;   
+    background-color: brown;
+    border-radius: 10%;
+    transform-origin: center;
+    z-index: 20;
+}
+
+.color span {
+    font-size: 20px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+
+.console {
+    display: none;
+    position: absolute;
+    left: 700px;
+    top: 100px;
+    background-color: #777;
+    border: 1px solid black;
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+    z-index: 3;
+}
+
+.console button{
+    width: 90px;
+    height: 20px;
+}
+
+.color {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.size {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.menu_buttons {
+    position: absolute;
+    display: inline-block;
+    left: 94%;
+    top: 96%;
+}
+.menu_buttons button {
+    border-radius: 10%;
+    border: 3px solid brown;
+    background-color: black;
+    color: white;
+}
+
+.draw span {
+    margin-right: 10px;
+}
+
+.paint_panel {
+    display: inline-block;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    border: 2px solid black;
+    padding: 3px;
+    left: 84.7%;
+    top: 80%;
+}
+
+table {
+    border-radius: 2%;
+    padding: 6px;
+}
+
+ table td {
+    padding: 5px;
+    border-left: 2px solid black;
+ }
+
+#draw_td {
+    width: 100%;
+}
+#border_td {
+    width: 100%;
+}
+#elaser_td {
+    width: 100%;
+}
+
+
+ #color_td {
+     background-color: red;
+ }

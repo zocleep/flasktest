@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base_style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/setwall.css') }}">
+    {% block add_link %}
+    {% endblock add_link %}
+    <title>{% block title %} {% endblock title %}</title>
+</head>
+<body id="body">
+    <div class="navig">
+        <a href="/" class="nava">Start page</a>
+        <a href="/serials/10" class="nava">Top 10 serials</a>
+        <a href="/serials/100" class="nava">Top 100 serials</a>
+        <a href="/movies/10" class="nava">Top 10 movies</a>
+        <a href="/movies/100" class="nava">Top 100 movies</a>
+        <a href="/randomnames/3" class="nava">Random names's table</a>
+        <a href="/wikiexist" class="nava">Does it exist on WIKI?</a>
+        <a href="/get_my_ip" class="nava">My IP</a>
+        <a href="/set_wallpaper" class="nava">Set wallpaper</a>
+        <a href="/somejs" class="nava">Some JS</a>
+        <a href="/hiden/moving_block" class="nava">Drawing</a>
+    </div>
+    {% block body %}
+
+    {% endblock body %}
+    <script src="{{ url_for('static', filename='js/base.js') }}"></script>
+</body>
+
+</html>
